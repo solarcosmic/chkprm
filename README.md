@@ -11,6 +11,8 @@ Use `chkprm <file>` to see the three main permissions for a file (user, group, o
 ### Releases
 You can install chkprm via the binary in the latest releases page.
 
+Then, you can run `./chkprm` to view usage. If that doesn't work, try doing `chmod +x chkprm`, then run `./chkprm`.
+
 To make `chkprm` globally available (without having to reference it directly), you can move the binary to somewhere in your PATH. By default, you should be able to drag and drop (or symlink) the binary into `/usr/local/bin`, and then restart any open terminals/shells.
 
 ### Building
