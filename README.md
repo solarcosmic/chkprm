@@ -8,8 +8,12 @@ chkprm allows you to check the current permissions on any file.
 Use `chkprm <file>` to see the three main permissions for a file (user, group, other).
 
 ## Installation
+### Releases
 You can install chkprm via the binary in the latest releases page.
 
+To make `chkprm` globally available (without having to reference it directly), you can move the binary to somewhere in your PATH. By default, you should be able to drag and drop (or symlink) the binary into `/usr/local/bin`, and then restart any open terminals/shells.
+
+### Building
 
 Alternatively, you can build it from source using Rust, Cargo, and Git:
 ```bash
